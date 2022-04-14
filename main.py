@@ -6,8 +6,8 @@ from PIL import ImageTk, Image
 import os
 import time
 
-token = "6942eb75679c8b5081e70754e8d73dba" #API key from openweathermap.org --> Profile > API Keys
-city = "Wolfsburg" #City 
+token = "" #API key from openweathermap.org --> Profile > API Keys
+city = " #City 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={token}&units=metric"
 
 snow = [600, 601, 602, 611, 612, 613, 615, 616, 620, 621, 622]
